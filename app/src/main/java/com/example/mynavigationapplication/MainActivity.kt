@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.nav_home -> replaceFragment(HomeFragment())
                 R.id.nav_about -> replaceFragment(AboutFragment())
                 R.id.nav_services -> replaceFragment(ServicesFragment())
+                R.id.nav_contact -> replaceFragment(ContactFragment())
             }
             true
         }
